@@ -1,6 +1,6 @@
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import Navigation from '@/components/Navigation'
+import Footer from '@/components/common/Footer'
+import Header from '@/components/common/Header'
+import Navigation from '@/components/common/Navigation'
 import { Outlet } from 'react-router'
 
 function AppLayout() {
