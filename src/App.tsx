@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Navigation from './components/Navigation'
 
@@ -9,7 +10,13 @@ function App() {
         description="Una wiki completa sobre la serie"
       />
 
-      <Navigation activeSection="characters" onSectionChange={() => {}} />
+      <Navigation />
+
+      <main className="container mx-auto px-4 py-8">
+        <h1>Holaaaaa</h1>
+      </main>
+
+      <Footer />
     </div>
   )
 }
