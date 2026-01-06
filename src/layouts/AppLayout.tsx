@@ -14,7 +14,9 @@ function AppLayout() {
       <Navigation />
 
       <main className="container mx-auto px-4 py-8">
-        <Outlet />
+        <div className="space-y-6">
+          <Outlet />
+        </div>
       </main>
 
       <Footer />

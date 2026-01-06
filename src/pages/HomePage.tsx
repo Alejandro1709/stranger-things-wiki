@@ -9,7 +9,7 @@ import {
 
 function HomePage() {
   return (
-    <div className="space-y-6">
+    <>
       <div className="text-center space-y-2">
         <h2 className="text-3xl md:text-4xl font-bold text-primary">
           Personajes Principales
@@ -267,7 +267,7 @@ function HomePage() {
           </CardContent>
         </Card>
       </div>
-    </div>
+    </>
   )
 }
 
