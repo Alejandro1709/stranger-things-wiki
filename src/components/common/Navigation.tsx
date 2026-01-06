@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import { Button } from '../ui/button'
 
 function Navigation() {
@@ -8,20 +9,23 @@ function Navigation() {
           <Button
             variant="default"
             className="whitespace-nowrap cursor-pointer"
+            asChild
           >
-            Personajes
+            <Link to="/">Personajes</Link>
           </Button>
           <Button
             variant="default"
             className="whitespace-nowrap cursor-pointer"
+            asChild
           >
-            Temporadas
+            <Link to="/temporadas">Temporadas</Link>
           </Button>
           <Button
             variant="default"
             className="whitespace-nowrap cursor-pointer"
+            asChild
           >
-            Lugares
+            <Link to="/lugares">Lugares</Link>
           </Button>
         </div>
       </div>
