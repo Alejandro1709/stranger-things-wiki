@@ -1,3 +1,4 @@
+import PageHeader from '@/components/common/PageHeader'
 import {
   Card,
   CardContent,
@@ -9,14 +10,10 @@ import {
 function PlacesPage() {
   return (
     <>
-      <div className="text-center space-y-2">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary">
-          Lugares Emblemáticos
-        </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto">
-          Explora las locaciones más importantes de Hawkins y el Mundo del Revés
-        </p>
-      </div>
+      <PageHeader
+        title="Lugares Emblemáticos"
+        description="Explora las locaciones más importantes de Hawkins y el Mundo del Revés"
+      />
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <Card className="hover:shadow-lg transition-shadow">

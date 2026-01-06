@@ -1,3 +1,4 @@
+import PageHeader from '@/components/common/PageHeader'
 import { Badge } from '@/components/ui/badge'
 import {
   Card,
@@ -10,15 +11,11 @@ import {
 function HomePage() {
   return (
     <>
-      <div className="text-center space-y-2">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary">
-          Personajes Principales
-        </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto">
-          Conoce a los héroes y aliados que luchan contra las fuerzas oscuras
-          del Mundo del Revés
-        </p>
-      </div>
+      <PageHeader
+        title="Personajes Principales"
+        description="Conoce a los héroes y aliados que luchan contra las fuerzas oscuras del
+        Mundo del Revés"
+      />
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <Card className="group hover:shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 cursor-pointer">

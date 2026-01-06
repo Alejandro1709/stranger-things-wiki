@@ -1,3 +1,4 @@
+import PageHeader from '@/components/common/PageHeader'
 import { Badge } from '@/components/ui/badge'
 import {
   Card,
@@ -10,15 +11,11 @@ import {
 function SeasonsPage() {
   return (
     <>
-      <div className="text-center space-y-2">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary">
-          Temporadas
-        </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto">
-          Un viaje a través de las cinco temporadas de misterio, horror y
-          aventura
-        </p>
-      </div>
+      <PageHeader
+        title="Temporadas"
+        description="Un viaje a través de las cinco temporadas de misterio, horror y
+          aventura"
+      />
 
       <div className="space-y-4">
         <Card className="hover:shadow-lg transition-shadow">
