@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Navigation from './components/Navigation'
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
         title="STRANGER THINGS"
         description="Una wiki completa sobre la serie"
       />
+
+      <Navigation activeSection="characters" onSectionChange={() => {}} />
     </div>
   )
 }
